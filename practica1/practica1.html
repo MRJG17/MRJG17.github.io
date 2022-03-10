@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Ejemplo JQUERY Mobile</title>
+<link rel="stylesheet" href="themes/jquerymobile.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div data-role="page" id="inicio">
+	<div data-role="header" style="color: white; background-color: #798d87;">
+		<h1>Ejemplo APP</h1>
+	</div>
+	<div align="center" role="main" class="ui-content">
+		<h2>Bienvenido</h2>
+		<img src="chocolates.jpg" alt="" width="70%">
+	</div>
+	<div role="main" class="ui-content">
+		<a href="#" class="ui-btn">Promociones</a>
+		<button class="ui-btn">Sorteos</button>
+		
+	</div>
+    <div data-role="footer" data-position="fixed">
+    	<div data-role="navbar">
+    		<ul>
+    			<li><a href="#inicio" data-icon="grid">Inicio</a></li>
+    			<li><a href="#productos" data-icon="star" class="ui-btn-active">Productos</a></li>
+    			<li><a href="#carrito" data-icon="gear">Carrito</a></li>
+    		</ul>
+    	</div>
+    </div>
+</div>
+
+
+<div data-role="page" id="productos">
+	<div data-role="header" style="color: white; background-color: #798d87">
+		<h1>Ejemplo APP</h1>
+	</div>
+
+	<div role="main" class="ui-content">
+		<h2>Listado de Productos</h2><hr>
+		<ol data-role="listview">
+			<li>Snickers</li>
+			<li>Carlos V</li>
+			<li>Ferreros</li>
+			<li>MnMs</li>
+			<li>Hershey</li>
+		</ol>
+	</div>
+
+    <div data-role="footer" data-position="fixed">
+    	<div data-role="navbar">
+    		<ul>
+    			<li><a href="#inicio" data-icon="grid">Inicio</a></li>
+    			<li><a href="#productos" data-icon="star" class="ui-btn-active">Productos</a></li>
+    			<li><a href="#carrito" data-icon="gear">Carrito</a></li>
+    		</ul>
+    		
+    	</div>
+    	
+    </div>
+
+
+
+	<div data-role="footer">
+		Garcia Araujo Jesus Geovanny Cetis 107 &copy; 2022
+	</div>
+</div>
+
+<div data-role="page" id="carrito">
+	<div data-role="header" style="color: white; background-color: #798d87">
+		<h1>Ejemplo APP</h1>
+	</div>
+
+	<div role="main" class="ui-content">
+		<h2>Listado de Productos</h2><hr>
+		<ul data-role="listview" data-inset="true">
+		<li><a href="#">
+		<img src="snickers.png">
+		<h2>Snickers</h2>
+		<p>$20</p></a>
+		</li>
+		<li><a href="#">
+		<img src="carlosv.png">
+		<h2>Carlos V</h2>
+		<p>$10</p></a>
+		</li>
+		<li><a href="#">
+		<img src="ferreros.png">
+		<h2>Ferreros</h2>
+		<p>$100</p></a>
+		</li>
+			<li>
+			<a href="#">
+		<img src="mnms.png">
+		<h2>MnMs</h2>
+		<p>$16</p></a>
+		</li>
+			<li>
+			<a href="#">
+		<img src="hershey.png">
+		<h2>Hershey</h2>
+		<p>$30</p></a>
+		</li>
+		</ul>
+	</div>
+
+    <div data-role="footer" data-position="fixed">
+    	<div data-role="navbar">
+    		<ul>
+    			<li><a href="#inicio" data-icon="grid">Inicio</a></li>
+    			<li><a href="#productos" data-icon="star" class="ui-btn-active">Productos</a></li>
+    			<li><a href="#" data-icon="gear">Carrito</a></li>
+    		</ul>
+    		
+    	</div>
+    	
+    </div>
+
+
+
+	<div data-role="footer">
+		Garcia Araujo Jesus Geovanny Cetis 107 &copy; 2022
+	</div>
+</div>
+
+
+</body>
+</html>
